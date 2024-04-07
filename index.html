@@ -12,10 +12,10 @@
   <link rel="stylesheet" href="sass/style.css">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
   <!-- navbar----------------------------- -->
   <header>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -36,7 +36,7 @@
       </div>
     </nav>
   </header>
-  <main>
+  <main class="flex-grow-1 flex-shrink-0 flex-fill-auto">
     <div class="container mt-5">
       <div class="row">
         <div class="col">
@@ -62,16 +62,25 @@
         <div class="col-12 col-md-6 mt-3">
           <div class="h-100">
             <h4 class="text-center">Original String</h4>
-            <div class="border rounded-3 p-4 text-white text-center" id="originalStringBox">
+            <div class="border rounded-3 p-4 text-center" id="originalStringBox">
               I love my country Pakistan.<br>
-I like my city Faisalabad.<br>
-I love my Homeland.<br>
-          </div>
+              I like my city Faisalabad.<br>
+              I love my Homeland.<br>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </main>
+  <footer class="py-2 text-white text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="mb-0">&copy; 2024. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!-- Bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
