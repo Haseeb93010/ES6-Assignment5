@@ -1,0 +1,2 @@
+let originalStatement = "<span>I love my country Pakistan.<span><br /><span>I like my city Faisalabad.<span><br /><span>I love my Homeland.</span>"
+document.getElementById("originalStringBox").innerHTML = originalStatement;
